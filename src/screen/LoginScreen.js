@@ -44,7 +44,7 @@ opacityAnim = () => {
       outputRange: [150, 0],
     });
     return (
-        <Box f={1} center style={styles.container}>
+        <Box f={1} center >
             <BoxAnimated f={1} style={{
                                     transform: [{
                                         translateY: logoTranslate,

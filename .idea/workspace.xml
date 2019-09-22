@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="958e0a96-1185-4bc0-94d3-cac6c3d089f0" name="Default Changelist" comment="" />
+    <list default="true" id="958e0a96-1185-4bc0-94d3-cac6c3d089f0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/screen/LoginScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screen/LoginScreen.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +24,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="20" />
-    <option name="y" value="43" />
+    <option name="x" value="91" />
+    <option name="y" value="58" />
     <option name="width" value="1400" />
     <option name="height" value="768" />
   </component>
