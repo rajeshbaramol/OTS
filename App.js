@@ -4,7 +4,11 @@ import Navigation  from './src/screen';
 import{ theme} from './theme';
 import { images} from './src/constants/images';
 import { cacheImages} from './src/utils/cacheImages';
-import {ActivityIndicator} from 'react-native'
+import {ActivityIndicator,UIManager} from 'react-native';
+
+UIManager.setLayoutAnimationEnabledExperimental &&
+  UIManager.setLayoutAnimationEnabledExperimental(true);
+
 
 export default class App extends Component {
     state={
@@ -31,7 +35,7 @@ export default class App extends Component {
     }else{
   return (
     <UtilityThemeProvider theme={theme}>
-      <Navigation></Navigation>
+      <Navigation />
       </UtilityThemeProvider>
   );}
 }

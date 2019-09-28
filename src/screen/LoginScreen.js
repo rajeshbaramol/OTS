@@ -44,18 +44,6 @@ opacityAnim = () => {
       outputRange: [150, 0],
     });
     return (
-        <Box f={1} center >
-            <BoxAnimated f={1} style={{
-                                    transform: [{
-                                        translateY: logoTranslate,
-                                        },
-                                    ],
-                                    }}>           
-                 <Box f={1} center>
-                    <OnBoardingLogo/>
-                </Box>
-            </BoxAnimated>
-            <BoxAnimated f={0.9} style={{ opacity }}>
                 <TouchableOpacity >
             <Box >
             <TextInput style={styles.Input}/>
@@ -67,9 +55,6 @@ opacityAnim = () => {
                 <Button title="Login" style={{borderRadius:20,}}></Button>
             </Box>
             </TouchableOpacity>
-            </BoxAnimated>
-         
-      </Box>
     );
   }
 }
